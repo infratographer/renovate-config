@@ -13,10 +13,6 @@
     "gomodTidy",
     "gomodUpdateImportPaths"
   ],
-  "postUpgradeTasks": {
-    "commands": ["go generate ./..."],
-    "fileFilters": ["**/*.go", "**/*.graphql", "go.sum"]
-  },
   "packageRules": [
     {
       "groupName": "go opentelemetry packages and libraries",
