@@ -11,7 +11,7 @@
   ],
   "postUpdateOptions": [
     "gomodTidy",
-    "gomodUpdateImportPaths",
+    "gomodUpdateImportPaths"
   ],
   "postUpgradeTasks": {
     "commands": ["go generate ./..."],
